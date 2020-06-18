@@ -1,2 +1,2 @@
-# CodinDojo-Jayne-Doe
+# CodingDojo-Jayne-Doe
 Portfolio Project
