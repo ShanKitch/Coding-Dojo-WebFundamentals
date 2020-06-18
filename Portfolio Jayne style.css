@@ -1,0 +1,190 @@
+body{padding: 0;
+	margin: 0;
+	background-color: black;
+    }
+    #container{
+        width:980px;
+        background: radial-gradient(#6f5964, #1f0f13);
+        margin:auto;
+    }
+    #header{
+        box-sizing:border-box;
+        width:auto;
+        height:65px;
+        padding-bottom: 5px;
+        padding-left:22px;
+        background-color:white;
+        color:black;
+        
+       
+        
+
+    }
+    h1{
+        display:inline-block;
+        text-align:left;
+        font-family:"Comic Sans MS", cursive, sans-serif;
+        margin-top: 0px;
+        margin-right:25px;
+        margin-bottom:0px;
+        margin-left: 0px;
+        
+        
+        
+        
+    }
+    h2{
+        display: inline-block;
+        font-family:Arial, Helvetica, sans-serif;
+        margin-left:350px;
+        
+       
+        
+    }
+    #main-content{
+        width:auto;
+        height:auto;
+        margin-bottom:20px;
+    }
+    #personal-box{
+        width:auto;
+        height:auto;
+        margin-bottom:20px;
+    }
+    #personal-photo{
+        display:inline-block;
+        border:solid 4px lightgrey;
+        margin-top:20px;
+        margin-right:20px;
+        margin-bottom:10px;
+        margin-left:20px;
+        height: 275px;
+
+    }
+    #personal-photo img{
+        height:275px;
+        width:auto;
+
+    }
+    #about-box{
+        width:480px;
+        height:auto;
+        display:inline-block;
+        margin-top:20px;
+        margin-right:5px;
+        margin-left:5px;
+        vertical-align:top;
+        padding-bottom:5px;
+        font-size:11pt;
+        font-family:"Arial","Helvetica",sans-serif;
+        
+    }
+    .box-header{
+        height:40px;
+        margin-top:0px;
+        background: linear-gradient(rgb(171, 170, 175),rgb(135,133,147),rgb(171,170,175));
+        color:white;
+        font-family:"Arial","Helvetica",sans-serif;
+    }
+    .box-header h3{
+        margin-top:0px;
+        margin-left:10px;
+        padding:10px;
+    }
+    #about-details{
+        height:244px;
+        display:inline-block;
+        background-color:white;
+        font-family:"Arial","Helvetica",sans-serif;
+    }
+    a{
+        color:black;
+    }
+    p{
+       
+        padding-bottom:4px;
+        padding-left:4px;
+
+    }
+    #columns-box{
+        width:auto;
+        height: 600px;
+        
+        
+    }
+    .column{
+        width:300px;
+        height:600px;
+        background:linear-gradient(to right,white,rgb(219,204,218));
+        display:inline-block;
+    }
+    .column img{
+        width:300px;
+        height:auto;
+    }
+    #one{
+        margin-top:0px;
+        margin-right:0px;
+        margin-bottom:0px;
+        margin-left:19px;
+        float:left;
+    }
+    #two{
+        margin-top: 0px;
+        margin-right:19px;
+        margin-bottom:0px;
+        margin-left: 19px;
+        float: left;
+    }
+    #three{
+        margin-top: 0px;
+        margin-right:19px;
+        margin-bottom:0px;
+        margin-left: 0px;
+        float: left;
+    }
+    .column-details{
+        display: inline-block;
+        height: 175px;
+        font-family: "Arial", "Helvetica", sans-serif;
+        font-size: 15px;
+    }
+    .tech-icons{
+        padding-top: 10px;
+    }
+    .tech-icons img{
+        display: inline-block;
+        width: 40px;
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+    .column-button{
+        text-align: center;
+    }
+    .column-button input{
+        color:white;
+        background-color:darkgreen;
+        border-radius:10px;
+        padding:5px;
+        box-shadow:2px 2px 1px #888888;
+        outline:none;
+        font-weight: 700px;
+    }
+    
+#footer{
+    width:auto;
+    height: 90px;
+    background-color:white;
+    font-family: "Arial", "Helvetica", sans-serif;
+    text-align:center;
+    margin-top:2px;
+
+}
+#web-contact{
+    text-align:center;
+    display:inline-block;
+    font-style:italic;
+}
+#web-contact img{
+    width:20px;
+}
