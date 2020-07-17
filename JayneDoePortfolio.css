@@ -1,0 +1,165 @@
+body{
+    padding:0;
+    margin:0;
+    background-color: black;
+}
+#container{
+    width:980px;
+    background: radial-gradient(rgb(112, 90, 101), rgb(105, 84, 94), rgb(29, 12, 17));
+    margin:auto;
+}
+#header{
+    background: linear-gradient( #f4f4f4,#f5f5f5,#f6f6f6);
+    height: 40px;
+    width:auto;
+    padding-top:10px;
+    padding-left:22px;
+    color:black;
+    padding-bottom:10px;
+    }
+h1{
+    display:inline;
+    text-align:left;
+    font-family:"Comic Sans MS",cursive, sans-serif;
+    }
+h2{
+    display:inline;
+    text-align:right;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left:400px;
+    font-size:15pt;
+}
+
+#main-content{
+   display:inline-block;
+}
+#personal-box{
+    display:inline-block;
+    margin-top:20px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:20px;
+    height:275px;
+   }
+#personal-box .profilepic{
+    width: 400px;
+	display: inline-block;
+	vertical-align: top;
+	border: 4px solid lightgray;
+}
+#about-box{
+    width: 500px;
+    height:275px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top:20px;
+    margin-right:20px;
+    background: linear-gradient(to right, white, rgb(219, 204, 218));
+    font-family: "Arial", "Helvetica", sans-serif;
+}
+#about-box .aboutheader{
+    padding:10px;
+    height: 30px;
+    background: linear-gradient(rgb(171, 170, 175), rgb(135, 133, 147), rgb(171, 170, 175));
+    color: white;
+    font-family: "Arial", "Helvetica", sans-serif;
+    margin-top:0px;
+}
+#about-box .abouttext{
+    display:inline-block;
+    font-family: "Arial", "Helvetica", sans-serif;
+    font-size:12pt;
+    font-weight:50;
+    padding-left:10px;
+    padding-right:10px;
+    margin-top: 3px;
+}
+#about-box a{
+    padding-left:10px;
+    color:black;
+}
+.column{
+    width: 300px;
+    height: 650px;
+    background: linear-gradient(to right, white, rgb(219, 204, 218));
+    display: inline-block;
+    vertical-align:top;    
+}
+.column .columnheader{
+    padding:10px;
+    height: 30px;
+    background: linear-gradient(rgb(171, 170, 175), rgb(135, 133, 147), rgb(171, 170, 175));
+    color: white;
+    font-family: "Arial", "Helvetica", sans-serif;
+    margin-top:0px;
+    margin-bottom:5px;
+}
+.column img{
+    width: 299px;
+}
+.column .columndetails{
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12pt;
+    padding-right:5px;
+    padding-left:5px;
+    padding-bottom:10px;
+    vertical-align:middle;
+    text-align:justify;
+    height:175px;
+    width:auto;
+}
+#one{
+    margin-left:20px;   
+}
+#two{
+    margin-left:10px
+}
+#three{
+    margin-right:10px;
+    margin-left:10px;
+}
+.tech-icons{
+        padding-bottom:20px;
+}
+.tech-icons img{
+    display: inline-block;
+    width: 40px;
+    margin-left: 10px;
+    margin-bottom: 5px;   
+}
+.column .columnbutton{
+    text-align:center;
+    padding-top:10px;
+    color: white;
+    background: rgb(64, 125, 97);
+    border-radius: 10px;
+    padding: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    margin-left: 78px;
+}
+#footer{
+    background: linear-gradient( #f4f4f4,#f5f5f5,#f6f6f6);
+    height: 75px;
+    width:980px;
+    color:black;
+    display:inline-block;
+    text-align:center;
+    margin-top:20px;
+}
+#footer .directcontact{
+    color:black;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#footer a{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:italic; 
+    color:black  
+}
+#footer img{
+    width:20px;
+    height:auto;
+    display:inline-block;
+}
